@@ -1,0 +1,135 @@
+{
+  "products": [
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "0112345678901231ABCabc",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": false,
+      "barkod": "0101234567890128",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "07176216",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "123456789-01",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "01234567",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "9787121026584",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "1",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": true,
+      "barkod": "1",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": false,
+      "barkod": "1",
+      "id": "123",
+      "soniOmbor": "1000"
+    },
+    {
+      "first": true,
+      "second": "#2",
+      "st": "St",
+      "name": "Baliq",
+      "count": "12",
+      "narxi": "12000",
+      "umumiy_narx": "100,000",
+      "mavjud": false,
+      "barkod": "1",
+      "id": "123",
+      "soniOmbor": "1000"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "react-electron",
+  "version": "0.1.0",
+  "description": "Simple boilerplate for developing an Electron app with React",
+  "author": "willjw3",
+  "build": {
+    "appId": "react.electron",
+    "win": {
+      "icon": "build/icon.png"
+    }
+  },
+  "main": "public/electron.js",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "cross-env": "^6.0.3",
+    "electron-is-dev": "^1.1.0",
+    "onscan.js": "^1.5.2",
+    "react": "^16.11.0",
+    "react-countup": "^4.3.3",
+    "react-date-picker": "^8.0.3",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.11.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-to-print": "^2.11.0",
+    "react-tooltip": "^4.2.11"
+  },
+  "scripts": {
+    "start-react": "react-scripts start",
+    "build-react": "react-scripts build",
+    "test-react": "react-scripts test --env=jsdom",
+    "eject-react": "react-scripts eject",
+    "build-electron": "electron-builder",
+    "build": "yarn build-react && yarn build-electron",
+    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "concurrently": "^5.3.0",
+    "electron": "^7.1.0",
+    "electron-builder": "^22.1.0",
+    "json-server": "^0.16.3",
+    "node-sass": "^4.14.1",
+    "wait-on": "^3.3.0"
+  }
+}
